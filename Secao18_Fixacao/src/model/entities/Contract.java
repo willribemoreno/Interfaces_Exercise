@@ -54,10 +54,6 @@ public class Contract {
 		return installment;
 	}
 
-
-	public void setInstallment(List<Installment> installment) {
-		this.installment = installment;
-	}
 	
 	public void addInstallment(Installment installment) {
 		this.installment.add(installment);
